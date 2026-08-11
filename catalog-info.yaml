@@ -38,7 +38,7 @@ metadata:
 spec:
   type: service
   system: flowsource-demo
-  owner: group:default-group
+  owner: group:catalog-admin
   lifecycle: Development
 #   dependsOn:
 #     - component:default/Payment-App-Gateway-System
