@@ -12,7 +12,7 @@ metadata:
     - title: Blackduck Website
       url: https://github.com/deepan10/backstage-plugin-blackduck  
   annotations:
-    flowsource/jira-project-key: 'IFSKEY'
+    flowsource/jira-project-key: IFSKEY
     flowsource/durationInDays: '60'
     flowsource/jira-storypoint-field: '#notapplicable'
     # flowsource/azure-project-name: SPE - Flowsource-Implementation
