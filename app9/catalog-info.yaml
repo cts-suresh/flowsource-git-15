@@ -1,0 +1,39 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: app8-project-two
+  description: >
+    The customer authorises payment via an online form allowing the business
+    to automatically collect funds when due.
+
+  links:
+    - title: Documentation
+      url: https://backstage.io/docs
+
+    - title: Backstage Website
+      url: https://backstage.io/
+
+    - title: Blackduck Website
+      url: https://github.com/deepan10/backstage-plugin-blackduck
+
+  annotations:
+    flowsource/jenkins-pipelines: "fs-jira,testjenkins"
+    flowsource/jenkins-pipelines-trigger: "fs-jira,testjenkins"
+    flowsource/jira-project-key: ISGFS
+    flowsource/durationInDays: '180'
+    flowsource/jira-storypoint-field: '#notapplicable'
+    backstage.io/techdocs-ref: dir:.
+    flowsource/github-repo-owner: cts-suresh
+    flowsource/github-repo-name: flowsource-git-15
+    flowsource/github-host: github.com
+
+  tags:
+    - payment
+    - transaction
+
+spec:
+  type: service
+  system: flowsource-demo
+  owner: group:default/default-group
+  lifecycle: development
