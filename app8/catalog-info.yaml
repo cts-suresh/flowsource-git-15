@@ -12,8 +12,8 @@ metadata:
     - title: Blackduck Website
       url: https://github.com/deepan10/backstage-plugin-blackduck  
   annotations:
-    flowsource/jenkins-pipelines: flowsource,fs-jira,testjenkins
-    flowsource/jenkins-pipelines-trigger: flowsource,fs-jira,testjenkins
+    flowsource/jenkins-pipelines: fs-jira,testjenkins
+    flowsource/jenkins-pipelines-trigger: fs-jira,testjenkins
     flowsource/jira-project-key: ISGFS
     flowsource/durationInDays: '180'
     flowsource/jira-storypoint-field: '#notapplicable'
