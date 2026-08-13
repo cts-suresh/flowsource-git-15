@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 
 metadata:
-  name: app8-project-two
+  name: app9-project-two
   description: >
     The customer authorises payment via an online form allowing the business
     to automatically collect funds when due.
@@ -18,11 +18,11 @@ metadata:
       url: https://github.com/deepan10/backstage-plugin-blackduck
 
   annotations:
-    jenkins-pipelines: fs-jira,testjenkins
-    jenkins-pipelines-trigger: fs-jira,testjenkins
-    jira-project-key: ISGFS
-    durationInDays: '180'
-    jira-storypoint-field: '#notapplicable'
+    flowsource/jenkins-pipelines: fs-jira,testjenkins
+    flowsource/jenkins-pipelines-trigger: fs-jira,testjenkins
+    flowsource/jira-project-key: ISGFS
+    flowsource/durationInDays: '180'
+    flowsource/jira-storypoint-field: '#notapplicable'
     backstage.io/techdocs-ref: dir:.
     flowsource/github-repo-owner: cts-suresh
     flowsource/github-repo-name: flowsource-git-15
